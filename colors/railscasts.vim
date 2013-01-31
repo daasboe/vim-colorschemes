@@ -1,14 +1,4 @@
 " Vim color scheme
-"
-" Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <jorourke23@gmail.com> 
-" License:     public domain
-"
-" A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
-" Some parts of this theme were borrowed from the well-documented Lucius theme [2].
-" 
-" [1] http://railscasts.com/about 
-" [2] http://www.vim.org/scripts/script.php?script_id=2536
 
 set background=dark
 hi clear
@@ -29,7 +19,7 @@ let g:colors_name = "railscasts"
 hi Normal                    guifg=#E6E1DC guibg=#2B2B2B
 hi Cursor                    guibg=#FFFFFF
 hi CursorLine                guibg=#333435
-hi LineNr                    guifg=#888888 guibg=#DEDEDE
+hi LineNr                    guibg=#333435 guifg=#777777 gui=NONE
 hi Search                    guibg=#5A647E
 hi Visual                    guibg=#5A647E
 
@@ -122,7 +112,7 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A
 hi xmlTagName                guifg=#E8BF6A
 hi xmlEndTag                 guifg=#E8BF6A
-t rubyClass                 guifg=#FFFFFF ctermfg=15
+hi rubyClass                 guifg=#FFFFFF ctermfg=15
 highlight rubyConstant              guifg=#DA4939 ctermfg=167
 highlight rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
 highlight rubyInterpolation         guifg=#519F50 ctermfg=107
